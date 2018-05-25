@@ -1,31 +1,36 @@
 /* EDIT THESE STYLES */
 
 h1 {
-  width:100%;
-  font-size:6vw;
+  width:66%;
+  font-size:12vw;
   margin:0;
 }
 
 h2 {
-  width:100%;
+  width:33%;
   font-size:3vw;
+  transform:rotate(90deg);
 }
 
 p {
-  width:50%;
+  width:33.33%;
   font-size:16px;
 }
 
 p#name-1 {
-  
+  position:absolute;
+  top:0;
 }
 
 p#name-2 {
-  
+  position:absolute;
+  bottom:0;
 }
 
 p#name-3 {
-  
+  position:absolute;
+  bottom:0;
+  right:0;
 }
 
 
@@ -86,7 +91,6 @@ body {
   transform:translateX(-50%) translateY(-50%)
     
 }
-
 
 
 

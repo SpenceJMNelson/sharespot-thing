@@ -33,8 +33,30 @@ p#name-3 {
   right:0;
 }
 
+@keyframes build{
+  from {
+    transform:scale(0);
+  }
+  to {
+    transform:scale(1);
+  }
+}
+
+svg ellipse {
+  animation-name: build;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  transform-origin:center;
+  }
 
 
+svg ellipse:nth-child(3n+1) {
+  animation-delay:.5s;
+}
+
+svg ellipse:nth-child(3n+2) {
+  animation-delay:1s;
+}
 
 
 
